@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Google Assistant POC</string>
+    <string name="title_account">Account</string>
+    <string name="title_transfer_money">Transfer Money</string>
+    <string name="title_upcoming_bill">Upcoming Bills</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
