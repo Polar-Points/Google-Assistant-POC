@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actions>
+    <action intentName="actions.intent.GET_ACCOUNT" >
+
+        <fulfillment urlTemplate="https://google-assistant-poc.com/account{?accountType}">
+            <!-- Dropoff location as an address -->
+            <parameter-mapping
+                    intentParameter="account.name"
+                    urlParameter="accountType" />
+        </fulfillment>
+
+
+        <fulfillment urlTemplate="https://google-assistant-poc.com/account">
+        </fulfillment>
+
+
+    </action>
+</actions>
